@@ -1,0 +1,37 @@
+*
+#hero .custom-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 10;
+}
+.flipped-image {
+    transform: scaleX(-1); /* Flips the image horizontally */
+}
+.custom-text {
+    position: absolute;
+    left: 50px; /* Adjust the horizontal position */
+    top: 50%; /* Vertically center the text */
+    transform: translateY(-50%); /* Ensure perfect vertical alignment */
+    text-align: left; /* Align the text to the left */
+    color: white; /* Set text color to black */
+}
+#contact .form-label {
+    color: white; /* Make form labels white */
+}
+
+#contact .form-control {
+    background-color: #5a6268; /* Darker gray for input fields */
+    color: white; /* White text inside inputs */
+    border: 1px solid #ced4da; /* Optional: keep the border subtle */
+}
+
+#contact .form-control::placeholder {
+    color: #d6d8db; /* Light gray placeholder text */
+}
+.footer a:hover {
+    text-decoration: underline;
+    color: #0d6efd; /* Bootstrap primary color for hover effect */
+}
+
+
